@@ -11,5 +11,17 @@
     "@cloudflare/workers-types": "^4.20240208.0",
     "typescript": "^5.0.4",
     "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "@atproto/api": "^0.9.6",
+    "fast-xml-parser": "^4.3.4",
+    "hono": "^4.0.1",
+    "jimp": "^0.22.10",
+    "valibot": "^0.28.1"
+  },
+	"pnpm": {
+    "overrides": {
+      "@types/node": "18.15.3"
+    }
   }
 }
